@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fb98ed049b4863046a4e095c075861c6
+guid: e993a18d02fb99f4aacf9639cbbd9242
 timeCreated: 1512875137
 licenseType: Free
 ModelImporter:
@@ -124,7 +124,17 @@ ModelImporter:
     optimizeGameObjects: 0
     motionNodeName: 
     rigImportErrors: 
-    rigImportWarnings: 
+    rigImportWarnings: "Avatar Rig Configuration mis-match. Bone length in configuration
+      does not match position in animation file:\n\t'Left_Thigh' : position error
+      = 111.883125 mm\n\t'Right_Thigh' : position error = 111.883110 mm\n\t'Left_Upper_Arm'
+      : position error = 307.061493 mm\n\t'Left_Thumb_Knuckle' : position error =
+      26.619297 mm\n\t'Left_Index_Knuckle' : position error = 29.259882 mm\n\t'Left_Bird_Knuckle'
+      : position error = 11.070297 mm\n\t'Left_Ring_Knuckle' : position error = 6.111599
+      mm\n\t'Left_Pinkie_Knuckle' : position error = 24.730949 mm\n\t'Right_Upper_Arm'
+      : position error = 307.061554 mm\n\t'Right_Thumb_Knuckle' : position error =
+      112.749825 mm\n\t'Right_Index_Knuckle' : position error = 123.934563 mm\n\t'Right_Bird_Knuckle'
+      : position error = 46.889473 mm\n\t'Right_Ring_Knuckle' : position error = 25.887218
+      mm\n\t'Right_Pinkie_Knuckle' : position error = 104.752319 mm\n"
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
