@@ -223,8 +223,22 @@ public class scr_playerControl : MonoBehaviour {
 
         }
 
+        //Check if Interact Button Pressed
+        if (Input.GetButtonDown("Interact") && Physics.Raycast(shoulder.transform.position, shoulder.transform.forward, out checkGrabbable, grabRange))
+        {
+
+            //Open Door
+            if (checkGrabbable.collider.gameObject.tag == "door" && checkGrabbable.collider.gameObject.GetComponent<scr_doorOpen>().opened == false)
+            {
+
+                checkGrabbable.collider.gameObject.GetComponent<scr_doorOpen>().anim.Play(checkGrabbable.collider.gameObject.GetComponent<scr_doorOpen>().open.name);
+
+            }
+
+        }
+
         //Check if Throw Button Pressed and Object is Held
-        if (Input.GetButtonDown("Throw") && grabbedObject != null)
+            if (Input.GetButtonDown("Throw") && grabbedObject != null)
         {
 
             //Throw Object

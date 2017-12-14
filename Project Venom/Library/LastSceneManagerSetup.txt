@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/rg_testScene_TongueEnvy.unity
+- path: Assets/pVenom_firstSceneConcept.unity
   isLoaded: 1
   isActive: 1
